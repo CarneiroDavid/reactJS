@@ -1,14 +1,9 @@
-const Competence = () => {
+const Competence = ({nom}) => {
     return (
         <>
-            <section>Compétences</section>
-            <ul>
-                <li>PHP</li>
-                <li>JavaScript</li>
-                <li>SQL</li>
-                <li>HTML/CSS</li>
-
-            </ul>
+            
+            <li>{nom}</li>
+            
         </>
     );
 }

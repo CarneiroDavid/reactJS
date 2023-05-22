@@ -1,8 +1,8 @@
 const url = () => {
     return (
         <>
-            <section>URL Site</section>
-            <a className="App-link" href="https://www.apple.com/fr/">Lien</a>
+            <section>URL Site : <a className="App-link" href="https://www.apple.com/fr/">Mon Site</a></section>
+            
         </>
     );
 }
